@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Duende.BFF.Yarp" Version="1.2.3" />
+      <PackageReference Include="Duende.IdentityServer" Version="6.1.1" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="6.0.6" />
+      <PackageReference Include="Yarp.ReverseProxy" Version="1.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\Account\Login\Index.cshtml" />
+    </ItemGroup>
+
+</Project>
